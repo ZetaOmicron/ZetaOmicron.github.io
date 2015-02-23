@@ -1,0 +1,82 @@
+#title {
+    position: relative;
+    font-size: 10vh;
+    height: 20vh;
+    width: 100%;
+    color: #cfcfcf;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #212221;
+}
+
+#title span {
+    position: relative;
+    top: 6vh;
+    text-anchor: middle;
+}
+
+#bigbox {
+    background-color: #2a2a2a;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+#contactwrapper {
+    width: 900px;
+    padding-top: 30px;
+    height: 500px;
+    margin: 0 auto 40px auto;
+
+}
+
+.form_boxes {
+    background-color: #3a3a3a;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #f5f5f5;
+    padding-left: 10px;
+    font-family: sans-serif;
+
+    -webkit-transition: color, background-color .1s;
+    -moz-transition: color, background-color .1s;
+    -ms-transition: color, background-color .1s;
+    -o-transition: color, background-color .1s;
+    transition: color, background-color .1s;
+}
+
+.form_boxes:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #3a3a3a inset;
+    -webkit-text-fill-color: #f5f5f5;
+}
+
+.form_boxes:hover, .form_boxes:focus {
+    background-color: #484848;
+}
+
+.data {
+    width: 300px;
+    height: 50px;
+    margin-left: 3%;
+}
+
+#message {
+    float: right;
+    width: 570px;
+    height: 260px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+#messagesubmit {
+    font-size: 30px;
+    height: 60px;
+    width: 891px;
+    margin-left: 1%;
+    color: #a9a9a9;
+}
+
+#messagesubmit:hover {
+    cursor: pointer;
+}

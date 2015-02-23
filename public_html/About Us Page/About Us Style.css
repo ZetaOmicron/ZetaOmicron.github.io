@@ -1,0 +1,31 @@
+#title {
+    position: relative;
+    font-size: 10vh;
+    height: 20vh;
+    width: 100%;
+    color: #cfcfcf;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #212221;
+}
+
+#title span {
+    position: relative;
+    top: 6vh;
+    text-anchor: middle;
+}
+
+#info_container {
+    position: relative;
+    width: 100%;
+}
+
+#info {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    color: #acacac;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+}

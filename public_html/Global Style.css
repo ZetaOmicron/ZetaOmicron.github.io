@@ -1,0 +1,300 @@
+/*-----------------------------------------------------------------------*/
+/*                             CSS RESET                                 */
+/*-----------------------------------------------------------------------*/
+
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) *
+http://cssreset.com */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p,
+blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em,
+img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u,
+i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table,
+caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,
+section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;	border-spacing: 0;
+}
+
+/*-----------------------------------------------------------------------*/
+/*                            Main Style                                 */
+/*-----------------------------------------------------------------------*/
+
+html {
+    //background: darkgray;
+    background-color: #2a2a2a;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------*/
+/*                              Sidebar                                  */
+/*-----------------------------------------------------------------------*/
+
+#side {
+    position: fixed;
+    width: 18%;
+    height: 100%;
+    z-index: 10;
+    padding-top: 40px;
+    background-color: #262626;
+    text-align: center;
+}
+
+#site_logo {
+    color: #ffffff;
+    font-size: 4.5vw;
+    font-family: "Lobster Two", sans-serif;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+}
+
+#site_logo:hover {
+    color: #cbcbcb;
+}
+
+/*-----------------------------------------------------------------------*/
+/*                          Navigation Style                             */
+/*-----------------------------------------------------------------------*/
+
+#nav_choices {
+    padding-top: 40px;
+}
+
+#nav_choices li a input{
+    font-family: "Oxygen", sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #ffffff;
+    background-color: #4b4b4b;
+    text-transform: uppercase;
+    -webkit-transition: color .2s ease, background-color .3s ease;
+    -moz-transition: color .2s ease, background-color .3s ease;
+    -ms-transition: color .2s ease, background-color .3s ease;
+    -o-transition: color .2s ease, background-color .3s ease;
+    transition: color .2s ease, background-color .3s ease;
+
+    border: none;
+    width: 100%;
+    height: 9.3vh;
+    margin-bottom: 1px;
+}
+
+.dos {
+    background-color: #424242 !important;
+}
+
+#nav_choices li a input.active {
+    color: #0ad5ff;
+}
+
+#nav_choices li a input:hover {
+    color: #0ad5ff;
+    background-color: #3a3a3a !important;
+    cursor: pointer;
+}
+
+@media (max-width: 714px) {
+
+}
+
+
+/*-----------------------------------------------------------------------*/
+/*                            Join Us Button                             */
+/*-----------------------------------------------------------------------*/
+
+#join input{
+    background-color: #6b6b6b !important;
+}
+
+#join input:hover {
+
+}
+
+/*-----------------------------------------------------------------------*/
+/*                             Social Menu                               */
+/*-----------------------------------------------------------------------*/
+
+#social_menu_wrapper {
+    display: block;
+    height: 4vw;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+#social_menu {
+    text-align: center;
+
+}
+
+@media (min-width: 901px) {
+    #social_menu_wrapper {
+        margin-top: 30px;
+    }
+    .icon {
+        display: inline-block;
+    }
+    .icon a{
+        font-size: 3.125vw;
+        height: 2.609vw;
+        width: 2.5vw;
+        line-height: 2.657vw;
+        margin-left: .938vw;
+        margin-right: .938vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .icon a{
+        font-size: 8vw;
+        height: 6.678vw;
+        width: 6.4vw;
+        line-height: 6.802vw;
+        margin-top: 3vw;
+        margin-left: 2.402vw;
+        margin-right: 2.402vw;
+    }
+    #social_menu_wrapper {
+        bottom: 27vh;
+    }
+}
+
+.icon a {
+    transform: rotate(0deg);
+    border-radius: .7815vw;
+    color: #B6B6B6;
+
+    -webkit-transition: color .5s, background-color .5s, transform .5s;
+    -moz-transition: color .5s, background-color .5s, transform .5s;
+    -ms-transition: color .5s, background-color .5s, transform .5s;
+    -o-transition: color .5s, background-color .5s, transform .5s;
+    transition: color .5s, background-color .5s, transform .5s;
+}
+
+.icon a:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+#facebook a:hover {
+    color: #3B5998;
+    background-color: #ffffff;
+}
+
+#twitter a:hover {
+    color: #55ACEE;
+    background-color: #ffffff;
+}
+
+#github a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/*-----------------------------------------------------------------------*/
+/*                             Body Style                                */
+/*-----------------------------------------------------------------------*/
+
+#body_wrapper {
+    width: 82%;
+    float: right;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*    Version 1
+
+#nav_choices {
+    padding-top: 40px;
+    font-family: "Oxygen", sans-serif;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+#nav_choices li {
+}
+
+#nav_choices li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#nav_choices li a.active {
+    color: #0ad5ff;
+}
+
+#nav_choices li a:hover {
+    color: #0ad5ff;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+/*                            Join Us Button                             */
+/*-----------------------------------------------------------------------*/
+/*
+#join {
+    color: #ffffff;
+    font-size: 18px !important;
+    background-color: #2f3835;
+    padding: 9px 50px;
+    line-height: 70px;
+    border-radius: 5px;
+}
+
+#join:hover {
+    background-color: #3c3d3c;
+}
+*/

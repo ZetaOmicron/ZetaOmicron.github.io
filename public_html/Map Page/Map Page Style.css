@@ -1,0 +1,9 @@
+#map_tools {
+    position: absolute;
+    bottom: 4vh;
+    width: 100%;
+    height: 20vh;
+    background-color: #ffffff;
+    z-index: 2;
+    box-shadow: 0 0 1vw #868686;
+}
