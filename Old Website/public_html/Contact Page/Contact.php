@@ -11,7 +11,7 @@ $phone = $_POST['phone'];
 $school = $_POST['school'];
 $message = $_POST['message'];
 $from = 'From: Zeta Omicron Contact';
-$to = 'm_remedi@yahoo.com';
+$to = 'javier.romero555@gmail.com';
 $subject = 'Hello';
 
 $body = null;
