@@ -65,30 +65,24 @@ li a:hover {
 	font-size: 60px;
 	left: 70px;
 	top: 150px;
+    background-color: dodgerblue;
+    padding: 30px 20px;
 
 }
 
-#officers {
-	position: absolute;
-	top: 150px;
-	left: 960px;
-	color: white;
-	line-height: 30px;
-	font-size: 30px;
-	height: 40px;
-	width: 80px;
-	font-family: Homenaje, sans-serif;
-}
 
 #davis {
 	position: absolute;
 	top: 160px;
-	left: 700px;
-	
-	
-	
+	left: 780px;
 }
 
+#gif {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    
+}
 
 
 
