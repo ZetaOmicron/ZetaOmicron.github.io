@@ -1,0 +1,136 @@
+body {
+	background-color: black;
+}
+
+img {
+	display: inline-block;
+}
+
+#menu ul {
+	position: fixed;
+	z-index: 2;
+	width: 1242px;
+	list-style-type: none;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #333;
+	border: none;
+	border-radius: 10px;
+	top: 0px;
+}
+
+#menu ul li {
+	float: right;
+}
+
+#menu ul li a {
+	display: block;
+	font-family: Homenaje, sans-serif;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding: 35px 20px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+#title a{
+	position: fixed;
+	font-family: Lobster Two, cursive;
+	color: white;
+	height: 70px;
+	line-height: 70px;
+	width: 630px;
+	font-size: 65px;
+	text-decoration: none;
+	top: 30px;
+	left: 28px;
+	z-index: 3;
+}
+
+#title a:hover {
+	text-shadow: 1px 1px 2px #e6e6e6;
+}
+	
+
+#main {
+	position: absolute;
+	color: white;
+	left: 250px;
+	top: 330px;
+	line-height: 30px;
+	font-size: 30px;
+	font-family: Homenaje, sans-serif;
+	
+}
+
+#troy {
+	position: absolute;
+	top: 360px;
+	left: 40px;
+}
+
+#ca {
+	position: absolute;
+	top: 140px;
+	left: 40px;
+}
+
+#davis {
+	position: absolute;
+	top: 130px;
+	left: 210px;
+}
+
+#ryan {
+	position: absolute;
+	top: 380px;
+	left: 240px;
+	padding-bottom: 20px;
+	
+}
+
+#three {
+	position: absolute;
+	top: 340px;
+	left: 540px;
+	padding-bottom: 20px;
+	
+}
+
+#crowd {
+	position: absolute;
+	top: 140px;
+	left: 480px;
+	padding-bottom: 20px;
+}
+
+#table {
+	position: absolute;
+	top: 130px;
+	left: 790px;
+	
+}
+
+#tall {
+	position: absolute;
+	top: 140px;
+	left: 980px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
