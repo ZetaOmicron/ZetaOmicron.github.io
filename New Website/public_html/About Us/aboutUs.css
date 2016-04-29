@@ -8,15 +8,17 @@ img {
 
 #menu ul {
 	position: fixed;
-	z-index: -1;
-	width: 1242px;
+	z-index: 2;
+	width: 100%;
 	list-style-type: none;
-	padding: 0px;
 	overflow: hidden;
+	padding-left: 18px;
 	background-color: #333;
 	border: none;
 	border-radius: 10px;
-	top: 0px;
+	top: -18px;
+	left: -10px;
+	
 }
 
 #menu ul li {
@@ -46,8 +48,9 @@ li a:hover {
 	width: 630px;
 	font-size: 65px;
 	text-decoration: none;
-	top: 30px;
+	top: 12px;
 	left: 28px;
+	z-index: 3;
 }
 
 #title a:hover {
@@ -70,6 +73,7 @@ li a:hover {
 	border-radius: 16px;
     font-family: Homenaje, sans-serif;
     color: white;
+	z-index: 0;
 }
 
 #fact1 {
@@ -85,7 +89,7 @@ li a:hover {
 	border-radius: 18px;
     font-family: Homenaje, sans-serif;
     color: white;
-    z-index: 2;
+    z-index: 1;
 }
 
 #fact2 {
@@ -101,6 +105,7 @@ li a:hover {
     color: white;
     background-color: grey;
     border-radius: 12px;
+	z-index: 1;
 }
 
 #Medha {
