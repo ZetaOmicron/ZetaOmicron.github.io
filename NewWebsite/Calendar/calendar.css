@@ -8,15 +8,15 @@ img {
 
 #menu ul {
 	position: fixed;
-	z-index: -1;
-	width: 1242px;
+	z-index: 2;
+	width: 100%;
 	list-style-type: none;
-	padding: 0px;
 	overflow: hidden;
+	padding-left: 10px;
 	background-color: #333;
 	border: none;
-	border-radius: 10px;
-	top: 0px;
+	top: -16px;
+	left: -10px;
 }
 
 #menu ul li {
@@ -46,32 +46,20 @@ li a:hover {
 	width: 630px;
 	font-size: 65px;
 	text-decoration: none;
-	top: 30px;
+	top: 12px;
 	left: 28px;
+	z-index: 3;
 }
 
 #title a:hover {
 	text-shadow: 1px 1px 2px #e6e6e6;
 }
 
-#links ul {
+#calendar {
 	position: absolute;
-	font-family: Homenaje, sans-serif;
-	color: white;
-	left: 210px;
 	top: 140px;
-	font-size: 40px;
-	
+	left: 250px;
+	z-index: -2;
 }
 
-#links ul li a{
-	font-family: Homenaje, sans-serif;
-	text-decoration: none;
-	color: white;
-	line-height: 20px;
-	font-size: 20px;
-}
 
-#links ul hover {
-	
-}
