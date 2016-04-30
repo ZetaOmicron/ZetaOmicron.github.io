@@ -87,7 +87,18 @@ li a:hover {
     
 }
 
-
+#quote {
+	position: absolute;
+	font-family: cursive;
+	height: 30px;
+	line-height: 40px;
+	width: 850px;
+	font-size: 30px;
+	color: white;
+	top: 570px;
+	left: 280px;
+	
+}
 
 
 
