@@ -57,7 +57,7 @@ li a:hover {
 
 #calendar {
 	position: absolute;
-	top: 140px;
+	top: 120px;
 	left: 250px;
 	z-index: -2;
 }
