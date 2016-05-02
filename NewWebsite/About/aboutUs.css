@@ -58,7 +58,7 @@ li a:hover {
 
 #info {
 	position: absolute;
-	top: 144px;
+	top: 150px;
 	left: 200px;
 	height: 320px;
 	width: 820px;
@@ -77,7 +77,7 @@ li a:hover {
 #fact1 {
 	position: absolute;
 	left: 120px;
-	top: 434px;
+	top: 440px;
 	height: 130px;
 	width: 220px;
 	text-align: center;
@@ -93,16 +93,18 @@ li a:hover {
 #fact2 {
 	position: absolute;
 	left: 700px;
-	top: 484px;
-	height: 150px;
+	top: 500px;
+	height: 140px;
 	width: 290px;
     text-align: center;
 	line-height: 30px;
-	font-size: 20px;
+	font-size: 24px;
+    border-radius: 12px;
     font-family: Homenaje, sans-serif;
     color: white;
     background-color: grey;
-    border-radius: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
 	z-index: 1;
 }
 
