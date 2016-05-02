@@ -89,14 +89,16 @@ li a:hover {
 
 #quote {
 	position: absolute;
-	font-family: cursive;
-	height: 30px;
+	font-family: 'Cookie', cursive;
+	height: 40px;
 	line-height: 40px;
-	width: 850px;
+	text-align: center;
+	width: 600px;
 	font-size: 30px;
 	color: white;
-	top: 570px;
-	left: 280px;
+	top: 580px;
+	left: 50%;
+	margin-left: -300px;
 	
 }
 
