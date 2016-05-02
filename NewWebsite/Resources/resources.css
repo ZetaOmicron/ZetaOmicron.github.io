@@ -33,7 +33,7 @@ img {
 	text-decoration: none;
 }
 
-li a:hover {
+#menu ul li a:hover {
 	background-color: #111;
 }
 
@@ -55,24 +55,101 @@ li a:hover {
 	text-shadow: 1px 1px 2px #e6e6e6;
 }
 
-#links ul {
+#begTitle {
 	position: absolute;
-	font-family: Homenaje, sans-serif;
+	z-index: -2;
+	text-align: cetner;
 	color: white;
-	left: 210px;
+	font-family: Homenaje, sans-serif;
+	line-height: 55px;
+	font-size: 55px;
+	width: 320px;
+	left: 50%;
+	margin-left: -160px;
 	top: 140px;
-	font-size: 40px;
-	
+	height: 55px;
 }
 
-#links ul li a{
+#begLinks ul {
+	position: absolute;
+	z-index: -2px;
+	width: 80%;
+	list-style-type: none;
+	overflow: hidden;
+	border: none;
+	top: 215px;
+	left: 100px;
+}
+
+#begLinks li a {
+	display: block;
 	font-family: Homenaje, sans-serif;
-	text-decoration: none;
 	color: white;
-	line-height: 20px;
-	font-size: 20px;
+	font-size: 24px;
+	text-align: center;
+	padding: 30px 20px;
+	margin-bottom: 15px;
+	text-decoration: none;
 }
 
-#links ul hover {
+#begLinks ul li:nth-child(1) {
+	background-color: #34b3a0;
 	
 }
+
+#begLinks ul li:nth-child(2) {
+	background-color: #4CAF50;
+	
+}
+
+#begLinks ul li:nth-child(3) {
+	background-color: #0095ff
+	
+}
+
+#intTitle {
+	position: absolute;
+	z-index: -2;
+	text-align: center;
+	color: white;
+	font-family: Homenaje, sans-serif;
+	line-height: 55px;
+	font-size: 55px;
+	width: 330px;
+	left: 50%;
+	margin-left: -165px;
+	top: 580px;
+	height: 55px;
+	
+}
+
+#intLinks ul {
+	position: absolute;
+	z-index: -2px;
+	width: 80%;
+	list-style-type: none;
+	overflow: hidden;
+	border: none;
+	top: 700px;
+	left: 100px;
+}
+
+#intLinks li a {
+	display: block;
+	font-family: Homenaje, sans-serif;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding: 30px 20px;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
