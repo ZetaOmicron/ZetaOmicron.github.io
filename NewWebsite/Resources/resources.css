@@ -130,20 +130,37 @@ img {
 	line-height: 55px;
 	font-size: 55px;
 	width: 320px;
-	left: 18%;
+	left: 35%;
 	margin-left: -160px;
 	top: 580px;
+	background-color: red;
 }
+
+/*#otherTitle {
+	position: absolute;
+	z-index: -2;
+	text-align: center;
+	color: white;
+	font-family: Homenaje, sans-serif;
+	line-height: 55px;
+	font-size: 55px;
+	width: 320px;
+	left: 70%;
+	margin-left: -160px;
+	top: 580px;
+	
+} */
 
 #practiceSites ul {
 	position: absolute;
 	z-index: -2px;
-	width: 18%;
+	width: 240px;
 	list-style-type: none;
 	overflow: hidden;
 	border: none;
 	top: 650px;
-	left: 75px;
+	left: 32%;
+	margin-left: -9%;
 }
 
 #practiceSites li a {
