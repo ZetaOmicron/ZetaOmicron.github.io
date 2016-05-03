@@ -92,22 +92,36 @@ img {
 	text-decoration: none;
 }
 
-#begLinks ul li:nth-child(1) {
+.cColor {
 	background-color: #34b3a0;
 	
 }
 
-#begLinks ul li:nth-child(2) {
+.cColor a:hover{
+	background-color: #4ccdb9;
+}
+
+.wColor {
 	background-color: #4CAF50;
 	
 }
 
-#begLinks ul li:nth-child(3) {
-	background-color: #0095ff
+.wColor a:hover{
+	background-color: #62b964;
 	
 }
 
-#intTitle {
+.sColor {
+	background-color: #0095ff;
+	
+}
+
+.sColor a:hover{
+	background-color: #33aaff;
+	
+}
+
+#pracTitle {
 	position: absolute;
 	z-index: -2;
 	text-align: center;
@@ -115,36 +129,62 @@ img {
 	font-family: Homenaje, sans-serif;
 	line-height: 55px;
 	font-size: 55px;
-	width: 330px;
-	left: 50%;
-	margin-left: -165px;
+	width: 320px;
+	left: 18%;
+	margin-left: -160px;
 	top: 580px;
-	height: 55px;
-	
 }
 
-#intLinks ul {
+#practiceSites ul {
 	position: absolute;
 	z-index: -2px;
-	width: 80%;
+	width: 18%;
 	list-style-type: none;
 	overflow: hidden;
 	border: none;
-	top: 700px;
-	left: 100px;
+	top: 650px;
+	left: 75px;
 }
 
-#intLinks li a {
+#practiceSites li a {
 	display: block;
 	font-family: Homenaje, sans-serif;
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: center;
-	padding: 30px 20px;
-	margin-bottom: 15px;
+	padding: 20px 10px;
+	margin-bottom: 20px;
 	text-decoration: none;
 }
 
+.coColor {
+	background-color: blue;
+	
+}
+
+.coColor a:hover {
+	background-color: #3333ff;
+}
+
+.eColor {
+	background-color:#6b4e3d;
+	
+}
+
+.eColor a:hover{
+	background-color:#6b4e3d;
+	
+}
+
+.pColor {
+	background-color: gold;
+	
+}
+
+.pColor a:hover{
+	background-color: #ffe033;
+	
+}
 
 
 
