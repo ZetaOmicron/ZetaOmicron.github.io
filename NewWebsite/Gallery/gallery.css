@@ -59,7 +59,7 @@ li a:hover {
 #main {
 	position: absolute;
 	color: white;
-	left: 250px;
+	left: 240px;
 	top: 330px;
 	line-height: 30px;
 	font-size: 30px;
@@ -75,8 +75,8 @@ li a:hover {
 
 #ca {
 	position: absolute;
-	top: 140px;
-	left: 40px;
+	top: 120px;
+	left: 60px;
 }
 
 #davis {
@@ -96,29 +96,29 @@ li a:hover {
 #three {
 	position: absolute;
 	top: 340px;
-	left: 540px;
+	left: 770px;
 	padding-bottom: 20px;
 	
 }
 
 #crowd {
 	position: absolute;
-	top: 140px;
+	top: 150px;
 	left: 480px;
 	padding-bottom: 20px;
 }
 
 #table {
 	position: absolute;
-	top: 130px;
-	left: 790px;
+	top: 120px;
+	left: 740px;
 	
 }
 
-#tall {
+#cassAl {
 	position: absolute;
-	top: 140px;
-	left: 980px;
+	top: 350px;
+	left: 520px;
 	
 }
 
