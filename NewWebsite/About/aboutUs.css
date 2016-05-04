@@ -11,7 +11,6 @@ img {
 	z-index: 2;
 	width: 100%;
 	list-style-type: none;
-	overflow: hidden;
 	padding-left: 10px;
 	background-color: #333;
 	border: none;
@@ -31,6 +30,7 @@ img {
 	text-align: center;
 	padding: 35px 20px;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 li a:hover {
@@ -54,6 +54,7 @@ li a:hover {
 #title a:hover {
 	text-shadow: 1px 1px 2px #e6e6e6;
 }
+
 
 
 #info {
