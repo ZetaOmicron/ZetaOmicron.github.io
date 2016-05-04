@@ -149,7 +149,7 @@ img {
 	background-color: pink;
 }
 
-/*#practiceSites li a {
+#practiceSites li a {
 	display: block;
 	font-family: Homenaje, sans-serif;
 	color: white;
@@ -158,7 +158,7 @@ img {
 	padding: 20px 10px;
 	margin-bottom: 20px;
 	text-decoration: none;
-}*/
+}
 
 .coColor {
 	background-color: blue;
