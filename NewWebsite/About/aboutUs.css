@@ -56,10 +56,25 @@ li a:hover {
 }
 
 
+#aboutTit {
+	position: absolute;
+	z-index: 1;
+	top: 130px;
+	left: 50%;
+	margin-left: -225px;
+	height: 60px;
+	width: 450px;
+	line-height: 55px;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	font-family: Homenaje, sans-serif;
+}
+
 
 #info {
 	position: absolute;
-	top: 150px;
+	top: 210px;
 	left: 200px;
 	height: 320px;
 	width: 820px;
@@ -78,9 +93,9 @@ li a:hover {
 #fact1 {
 	position: absolute;
 	left: 120px;
-	top: 440px;
+	top: 490px;
 	height: 130px;
-	width: 220px;
+	width: 210px;
 	text-align: center;
 	background-color: darkblue;
 	line-height: 20px;
@@ -93,10 +108,10 @@ li a:hover {
 
 #fact2 {
 	position: absolute;
-	left: 700px;
-	top: 500px;
+	left: 800px;
+	top: 510px;
 	height: 140px;
-	width: 290px;
+	width: 300px;
     text-align: center;
 	line-height: 30px;
 	font-size: 24px;
@@ -113,10 +128,10 @@ li a:hover {
 	position: absolute;
 	z-index: 1;
 	top: 680px;
-	left: 400px;
-	margin-left: -165px;
+	left: 50%;
+	margin-left: -150px;
 	height: 60px;
-	width: 330px;
+	width: 300px;
 	line-height: 55px;
 	font-size: 60px;
 	text-align: center;
@@ -124,10 +139,12 @@ li a:hover {
 	font-family: Homenaje, sans-serif;
 }
 
+#presTitle
+
 #Medha {
 	position: absolute;
 	top: 1200px;
-	left: 800px;
+	left: 300px;
 }
 
 
