@@ -55,6 +55,7 @@ img {
 	text-shadow: 1px 1px 2px #e6e6e6;
 }
 
+
 #begTitle {
 	position: absolute;
 	z-index: -2;
@@ -129,24 +130,20 @@ img {
 	font-family: Homenaje, sans-serif;
 	line-height: 55px;
 	font-size: 55px;
-	width: 320px;
-	left: 30%;
-	margin-left: -160px;
 	top: 580px;
+	left: 280px;
 }
 
 
 #practiceSites ul {
 	position: absolute;
 	z-index: -2px;
-	width: 240px;
+	width: 200px;
 	list-style-type: none;
 	overflow: hidden;
 	border: none;
-	left: 30%;
+	left: 280px;
 	top: 650px;
-	margin-left: -15%;
-	background-color: pink;
 }
 
 #practiceSites li a {
@@ -160,37 +157,56 @@ img {
 	text-decoration: none;
 }
 
-.coColor {
-	background-color: blue;
-	
+.coColor {background-color: #9999ff;}
+.coColor a:hover {background-color: #b3b3ff;}
+
+.pColor {background-color: #8000ff;}
+.pColor a:hover{background-color: #8c1aff;}
+
+.eColor {background-color:#6600cc;}
+.eColor a:hover{background-color:#7300e6;}
+
+#oakTitle {
+	position: absolute;
+	z-index: -2;
+	text-align: center;
+	color: white;
+	font-family: Homenaje, sans-serif;
+	line-height: 55px;
+	font-size: 55px;
+	top: 580px;
+	left: 720px;
+}
+#oakLinks  ul{
+	position: absolute;
+	z-index: -2px;
+	width: 200px;
+	list-style-type: none;
+	overflow: hidden;
+	border: none;
+	top: 650px;
+	left: 720px;
 }
 
-.coColor a:hover {
-	background-color: #3333ff;
+#oakLinks li a{
+	display: block;
+	font-family: Homenaje, sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 10px;
+	margin-bottom: 20px;
+	text-decoration: none;
 }
 
-.eColor {
-	background-color:#6b4e3d;
-	
-}
+.koColor{background-color: #ffd633;}
+.koColor a:hover{background-color: #ffe066;}
 
-.eColor a:hover{
-	background-color:#6b4e3d;
-	
-}
+.kiColor {background-color: #0088cc;}
+.kiColor a:hover {background-color: #00aaff;}
 
-.pColor {
-	background-color: gold;
-	
-}
-
-.pColor a:hover{
-	background-color: #ffe033;
-	
-}
-
-
-
+.giColor{background-color: #990099;}
+.giColor a:hover{background-color: #cc00cc;}
 
 
 
