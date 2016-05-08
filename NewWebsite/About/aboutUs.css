@@ -76,10 +76,10 @@ li a:hover {
 	position: absolute;
 	top: 210px;
 	left: 200px;
-	height: 320px;
+	height: 280px;
 	width: 820px;
 	text-align: center;
-	line-height: 35px;
+	line-height: 37px;
 	font-size: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -90,10 +90,20 @@ li a:hover {
 	z-index: 0;
 }
 
+#info a {
+	text-decoration: none;
+	color: white;
+}
+
+#info a:hover {
+	color: black;
+	
+}
+
 #fact1 {
 	position: absolute;
 	left: 120px;
-	top: 490px;
+	top: 460px;
 	height: 130px;
 	width: 210px;
 	text-align: center;
@@ -109,7 +119,7 @@ li a:hover {
 #fact2 {
 	position: absolute;
 	left: 800px;
-	top: 510px;
+	top: 480px;
 	height: 140px;
 	width: 300px;
     text-align: center;
@@ -139,7 +149,9 @@ li a:hover {
 	font-family: Homenaje, sans-serif;
 }
 
-#presTitle
+#presTitle {
+	
+}
 
 #Medha {
 	position: absolute;
