@@ -78,3 +78,9 @@ li a:hover {
 	margin-left: -300px;
 	
 }
+
+#gitLogo {
+	position: absolute;
+	top: 620px;
+	left: 1200px;
+}
