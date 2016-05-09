@@ -187,6 +187,26 @@ li a:hover {
 	font-family: Homenaje, sans-serif;
 }
 
+#President p {
+	position: absolute;
+	top: 820px;
+	left: 680px;
+	height: 250px;
+	width: 480px;
+	color: white;
+	font-family: Homenaje, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+#President img {
+	position: absolute;
+	top: 870px;
+	left: 190px;
+	
+}
+
 #vpTitle {
 	position: absolute;
 	z-index: 1;
@@ -222,7 +242,7 @@ li a:hover {
 	position: absolute;
 	z-index: 1;
 	top: 1700px;
-	left: 100px;
+	left: 80px;
 	color: white;
 	font-size: 50px;
 	text-align: center;
@@ -231,7 +251,7 @@ li a:hover {
 
 #SupChan p {
 	position: absolute;
-	top: 1800px;
+	top: 1750px;
 	left: 680px;
 	height: 250px;
 	width: 480px;
@@ -242,10 +262,10 @@ li a:hover {
 	
 }
 
-#supChan img {
+#SupChan img {
 	position: absolute;
 	top: 1800px;
-	left: 150px;
+	left: 200px;
 	
 }
 
@@ -254,7 +274,7 @@ li a:hover {
 	position: absolute;
 	z-index: 1;
 	top: 2200px;
-	left: 100px;
+	left: 140px;
 	color: white;
 	font-size: 50px;
 	text-align: center;
@@ -276,10 +296,8 @@ li a:hover {
 #Historian img {
 	position: absolute;
 	top: 2300px;
-	left: 170px;
+	left: 210px;
 }
-
-
 
 
 #treTitle {
@@ -301,7 +319,15 @@ li a:hover {
 }
 
 #Treasurer p {
-	
+	position: absolute;
+	top: 2750px;
+	left: 680px;
+	height: 250px;
+	width: 480px;
+	color: white;
+	font-family: Homenaje, sans-serif;
+	font-size: 30px;
+	text-align: center;
 }
 
 #secTitle {
