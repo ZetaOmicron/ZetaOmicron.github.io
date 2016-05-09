@@ -148,6 +148,10 @@ li a:hover {
 	font-family: Homenaje, sans-serif;
 }
 
+#offScrollDown a:hover {
+	color: dodgerblue;
+}
+
 #arrow1 {
 	position: absolute;
 	top: 560px;
@@ -370,7 +374,7 @@ li a:hover {
 
 @-webkit-keyframes floatAnim{
     from {-webkit-transform:translate(0, 0vh));}
-    50% {-webkit-transform:translate(0, 3px);}
+    50% {-webkit-transform:translate(0, 4px);}
     to {-webkit-transform: translate(0, -0vh);    }    
 }
 
