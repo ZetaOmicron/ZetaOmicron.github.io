@@ -229,7 +229,25 @@ li a:hover {
 	font-family: Homenaje, sans-serif;
 }
 
+#SupChan p {
+	position: absolute;
+	top: 1800px;
+	left: 680px;
+	height: 250px;
+	width: 480px;
+	color: white;
+	font-family: Homenaje, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	
+}
 
+#supChan img {
+	position: absolute;
+	top: 1800px;
+	left: 150px;
+	
+}
 
 
 #hisTitle {
