@@ -88,6 +88,7 @@ li a:hover {
     font-family: Homenaje, sans-serif;
     color: white;
 	z-index: 0;
+	-webkit-animation-delay: .25s;
 }
 
 #info a {
@@ -132,6 +133,7 @@ li a:hover {
 	padding-left: 15px;
 	padding-right: 15px;
 	z-index: 1;
+	-webkit-animation-delay: .75s;
 }
 
 #offScrollDown a{
@@ -251,7 +253,12 @@ li a:hover {
 	font-family: Homenaje, sans-serif;
 	font-size: 30px;
 	text-align: center;
-	
+}
+
+#Historian img {
+	position: absolute;
+	top: 2300px;
+	left: 170px;
 }
 
 
@@ -276,7 +283,6 @@ li a:hover {
 }
 
 #Treasurer p {
-	
 	
 }
 
@@ -310,16 +316,20 @@ li a:hover {
 	margin-bottom: 60px;
 }
 
+	
+.floating{
+    -webkit-animation-name: floatAnim;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
 
+@-webkit-keyframes floatAnim{
+    from {-webkit-transform:translate(0, 0vh));}
+    50% {-webkit-transform:translate(0, 3px);}
+    to {-webkit-transform: translate(0, -0vh);    }    
+}
 
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
